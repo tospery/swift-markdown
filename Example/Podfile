@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '11.0'
+use_frameworks!
+
+target 'swift-markdown_Example' do
+  pod 'swift-markdown-hi', :path => '../'
+
+end
